@@ -456,7 +456,7 @@ footer {
 
 .impressum-block {
     margin-bottom: 2rem;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .impressum-block h3 {
@@ -467,5 +467,4 @@ footer {
 
 .impressum-block p {
     line-height: 1.6;
-    padding:100px;
 }
