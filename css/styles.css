@@ -473,6 +473,37 @@ footer {
 /* Artikel-Unterseite */
 /* =============== */
 
-.article-image {
-  height: 10px;
+.news-article.with-image {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.article-image-small {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.article-content {
+  flex: 1;
+}
+
+.article-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.article-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
