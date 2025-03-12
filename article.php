@@ -47,7 +47,7 @@
 <article class="news-article-layout">
   <div class="article-header">
     <h2>Baumstreit in Adorf: Stadt ordnet Fällung einer Eiche an</h2>
-    <img src="images/eiche.jpg" alt="Eiche an der Grundstücksgrenze" class="article-image-small">
+    <img src="images/eiche.JPG" alt="Eiche an der Grundstücksgrenze" class="article-image-small">
   </div>
   <div class="article-body">
     <p>
