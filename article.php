@@ -29,7 +29,7 @@
         <h1>Bert Meier von seinem Hund Bello gebissen</h1>
         <p class="artikel-meta">Veröffentlicht am 11. März 2025 von <strong>Redaktion Adorf</strong></p>
 
-        <img src="images/hund.jpg" alt="Hund Bello" class="artikel-bild">
+        <img src="images/hund.jpg" alt="Hund Bello" class="artikel-bild" heigth=10%>
 
         <div class="artikel-inhalt">
             <p>Bert Meier, ein langjähriger Bürger der Stadt Adorf, wurde gestern Nachmittag von seinem eigenen Hund Bello gebissen. Der Vorfall ereignete sich im heimischen Garten, als Bello aus bisher ungeklärten Gründen aggressiv reagierte.</p>
