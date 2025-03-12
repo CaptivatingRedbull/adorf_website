@@ -61,19 +61,11 @@
             DE987654321</p>
         </div>
 
-        <div class="impressum-block">
-            <h3>Aufsichtsbehörde</h3>
-            <p>
-                Regierung von Oberfranken<br>
-                Ludwigstraße 20<br>
-                95444 Bayreuth
-            </p>
-        </div>
 
         <div class="impressum-block">
             <h3>Haftungsausschluss</h3>
             <p>
-                Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.<br>
+                Trotz definitiv sehr, sehr sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.<br>
                 Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
             </p>
         </div>
