@@ -468,56 +468,7 @@ footer {
 .impressum-block p {
     line-height: 1.6;
 }
-/* Artikel-Seite */
-.article-container {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 0 20px;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
 
-.artikel h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  color: #003366;
-  text-align: center;
-}
-
-.artikel-meta {
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.artikel-bild {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.artikel-inhalt p {
-  margin-bottom: 1.2em;
-  text-align: justify;
-}
-
-.artikel-inhalt blockquote {
-  margin: 20px 0;
-  padding: 15px 20px;
-  background: #f0f0f0;
-  border-left: 5px solid #003366;
-  font-style: italic;
-  color: #444;
-}
-
-.artikel a.btn {
-  margin-top: 30px;
-  display: inline-block;
-}
 /* =============== */
 /* Artikel-Unterseite */
 /* =============== */
@@ -529,6 +480,7 @@ footer {
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-left: 20px;
 }
 
 .full-article h1 {
@@ -550,7 +502,7 @@ footer {
   height: auto;
   border-radius: 5px;
   margin: 20px 0;
-  
+
 }
 
 .full-article p {
