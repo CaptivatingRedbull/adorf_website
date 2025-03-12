@@ -80,10 +80,6 @@
       Bürgerinnen und Bürger können dort aktuelle Informationen, Dienstleistungen und Ansprechpartner bequem abrufen – rund um die Uhr.
     </p>
     <p>
-      Die Webseite bietet ein modernes Design, eine benutzerfreundliche Navigation sowie einen barrierearmen Zugang zu allen relevanten 
-      Inhalten. Vom digitalen Formular bis zum Veranstaltungskalender – vieles ist jetzt nur noch einen Klick entfernt.
-    </p>
-    <p>
       "Wir freuen uns sehr, dass wir mit der neuen Seite einen wichtigen Schritt in Richtung digitale Verwaltung gemacht haben", 
       erklärt eine Sprecherin der Stadt. Die Plattform wurde in Zusammenarbeit mit einem regionalen Webentwickler realisiert.
     </p>
