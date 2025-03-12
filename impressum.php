@@ -29,33 +29,56 @@
 
 <!-- Impressum-Bereich -->
 <section id="impressum">
+    <div class="container">
         <h2>Impressum</h2>
-        <p><strong>Angaben gemäß § 5 TMG:</strong></p>
-        <p>
-            Stadt Adorf<br>
-            Musterstraße 1<br>
-            91522 Adorf<br>
-            Deutschland
-        </p>
 
-        <p><strong>Vertreten durch:</strong><br>
-        Oberbürgermeisterin Erika Beispiel</p>
+        <div class="impressum-block">
+            <h3>Angaben gemäß § 5 TMG</h3>
+            <p>
+                Stadt Adorf<br>
+                Musterstraße 1<br>
+                91522 Adorf<br>
+                Deutschland
+            </p>
+        </div>
 
-        <p><strong>Kontakt:</strong><br>
-        Telefon: 0981 123456<br>
-        Telefax: 0981 654321<br>
-        E-Mail: <a href="mailto:info@stadt-adorf.de">info@stadt-adorf.de</a></p>
+        <div class="impressum-block">
+            <h3>Vertreten durch</h3>
+            <p>Oberbürgermeisterin Erika Beispiel</p>
+        </div>
 
-        <p><strong>Umsatzsteuer-ID:</strong><br>
-        Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE987654321</p>
+        <div class="impressum-block">
+            <h3>Kontakt</h3>
+            <p>
+                Telefon: 0981 123456<br>
+                Telefax: 0981 654321<br>
+                E-Mail: <a href="mailto:info@stadt-adorf.de">info@stadt-adorf.de</a>
+            </p>
+        </div>
 
-        <p><strong>Aufsichtsbehörde:</strong><br>
-        Regierung von Oberfranken<br>
-        Ludwigstraße 20, 95444 Bayreuth</p>
+        <div class="impressum-block">
+            <h3>Umsatzsteuer-ID</h3>
+            <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br>
+            DE987654321</p>
+        </div>
 
-        <p><strong>Haftungsausschluss:</strong><br>
-        Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.
-        Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
+        <div class="impressum-block">
+            <h3>Aufsichtsbehörde</h3>
+            <p>
+                Regierung von Oberfranken<br>
+                Ludwigstraße 20<br>
+                95444 Bayreuth
+            </p>
+        </div>
+
+        <div class="impressum-block">
+            <h3>Haftungsausschluss</h3>
+            <p>
+                Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.<br>
+                Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+            </p>
+        </div>
+    </div>
 </section>
 
 <!-- Footer -->
