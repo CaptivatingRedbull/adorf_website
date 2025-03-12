@@ -546,10 +546,11 @@ footer {
 }
 
 .article-image {
-  max-width: 100%;
+  max-width: 10%;
   height: auto;
   border-radius: 5px;
   margin: 20px 0;
+  
 }
 
 .full-article p {

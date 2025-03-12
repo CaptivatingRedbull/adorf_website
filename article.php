@@ -24,7 +24,7 @@
     </div>
 </header>
 
-<class="article-container">
+<main class="article-container">
     <article class="full-article">
         <h1>Bert Meier von seinem Hund Bello gebissen</h1>
         <p class="article-meta">Veröffentlicht am 12. März 2025 von <strong>Redaktion Adorf</strong></p>
@@ -44,7 +44,6 @@
         <a href="index.html#news" class="btn">Zurück zu den Nachrichten</a>
     </article>
 </main>
-
 <footer>
     <div class="container">
         <p>&copy; 2025 Stadt Adorf. Alle Rechte vorbehalten. | <a href="impressum.php">Impressum</a></p>
