@@ -29,7 +29,6 @@
 
 <!-- Impressum-Bereich -->
 <section id="impressum">
-    <div class="container">
         <h2>Impressum</h2>
 
         <div class="impressum-block">
@@ -78,7 +77,6 @@
                 Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
             </p>
         </div>
-    </div>
 </section>
 
 <!-- Footer -->
