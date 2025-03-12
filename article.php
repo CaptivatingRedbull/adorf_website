@@ -69,6 +69,29 @@
     </p>
   </div>
 </article>
+<article class="news-article-layout">
+  <div class="article-header">
+    <h2>Stadt Adorf präsentiert neue Webseite</h2>
+    <img src="images/logo.jpg" alt="Logo der Stadt Adorf" class="article-image-small">
+  </div>
+  <div class="article-body">
+    <p>
+      Die Stadt Adorf geht online! Ab sofort ist die offizielle Webseite der kreisfreien Stadt Adorf unter einer neuen Adresse erreichbar. 
+      Bürgerinnen und Bürger können dort aktuelle Informationen, Dienstleistungen und Ansprechpartner bequem abrufen – rund um die Uhr.
+    </p>
+    <p>
+      Die Webseite bietet ein modernes Design, eine benutzerfreundliche Navigation sowie einen barrierearmen Zugang zu allen relevanten 
+      Inhalten. Vom digitalen Formular bis zum Veranstaltungskalender – vieles ist jetzt nur noch einen Klick entfernt.
+    </p>
+    <p>
+      "Wir freuen uns sehr, dass wir mit der neuen Seite einen wichtigen Schritt in Richtung digitale Verwaltung gemacht haben", 
+      erklärt eine Sprecherin der Stadt. Die Plattform wurde in Zusammenarbeit mit einem regionalen Webentwickler realisiert.
+    </p>
+    <p>
+      Die Stadtverwaltung lädt alle Bürgerinnen und Bürger ein, sich selbst ein Bild zu machen und Feedback zur neuen Seite zu geben.
+    </p>
+  </div>
+</article>
 <footer>
     <div class="container">
         <p>&copy; 2025 Stadt Adorf. Alle Rechte vorbehalten. | <a href="impressum.php">Impressum</a></p>
