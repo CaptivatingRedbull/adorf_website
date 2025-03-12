@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="index.php">Startseite</a></li>
                 <li><a href="iindex.php#services">Leistungen</a></li>
-                <li><a href="index.php#news">Aktuelles</a></li>
+                <li><a href="article.php">Aktuelles</a></li>
                 <li><a href="index.php#contact">Kontakt</a></li>
                 <li><a href="downloads.php">Downloads</a></li>
                 <li><a href="login.php">Login</a></li>

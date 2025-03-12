@@ -16,7 +16,7 @@
             <ul>
                 <li><a href="#hero">Startseite</a></li>
                 <li><a href="#services">Leistungen</a></li>
-                <li><a href="#news">Aktuelles</a></li>
+                <li><a href="article.php">Aktuelles</a></li>
                 <li><a href="#contact">Kontakt</a></li>
                 <li><a href="downloads.php">Öffentliche Downloads</a></li>
                 <li><a href="login.php">Login</a></li>
@@ -69,7 +69,7 @@
                 <img src="images/hund.jpg" alt="Hund Bello" class="news-image">
                 <p>Bert Meier wurde gestern von seinem Hund Bello gebissen. Er wurde sofort ins Krankenhaus gebracht und behandelt. Glücklicherweise sind die Verletzungen nicht schwerwiegend.</p>
             </div>
-            <a href="#">Zum Artikel</a>
+            <a href="article.php">Zum Artikel</a>
         </article>
     </div>
 </section>
