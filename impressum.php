@@ -15,13 +15,13 @@
         <img src="images/logo.jpg" alt="Stadt Adorf Logo" class="logo">
         <nav>
             <ul>
-                <li><a href="index.html#hero">Startseite</a></li>
-                <li><a href="index.html#services">Leistungen</a></li>
-                <li><a href="index.html#news">Aktuelles</a></li>
-                <li><a href="index.html#contact">Kontakt</a></li>
+                <li><a href="index.php#hero">Startseite</a></li>
+                <li><a href="index.php#services">Leistungen</a></li>
+                <li><a href="index.php#news">Aktuelles</a></li>
+                <li><a href="index.php#contact">Kontakt</a></li>
                 <li><a href="downloads.php">Öffentliche Downloads</a></li>
                 <li><a href="login.php">Login</a></li>
-                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="impressum.php">Impressum</a></li>
             </ul>
         </nav>
     </div>
