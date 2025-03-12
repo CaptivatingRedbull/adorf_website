@@ -27,8 +27,8 @@
 
 <!-- Hero-Bereich -->
 <section id="hero">
+<img src="images/hero.jpg" alt="Hintergrund" class="background-image">
     <div class="image-behind-text">
-        <img src="images/hero.jpg" alt="Hintergrund" class="background-image">
         <h1>Willkommen bei der kreisfreien Stadt Adorf!</h1>
         <p>Ihr zuverlässiger Partner in allen Verwaltungsangelegenheiten.</p>
         <a href="#services" class="btn">Mehr erfahren</a>
