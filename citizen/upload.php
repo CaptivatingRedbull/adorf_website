@@ -22,8 +22,19 @@ try {
 $message = '';
 $error   = '';
 
+// Prüfen, ob ein Upload gelöscht werden soll
+if (isset($_GET['delete_id'])) {
+    $deleteId = (int)$_GET['delete_id'];
+    // Löschvorgang nur bei Einträgen, die dem Bürger gehören
+    $stmt = $pdo->prepare("DELETE FROM uploads WHERE id = :id AND citizen_id = :citizen_id");
+    if ($stmt->execute([':id' => $deleteId, ':citizen_id' => $citizen['id']]) && $stmt->rowCount() > 0) {
+        $message = "Upload (ID: $deleteId) wurde entfernt.";
+    } else {
+        $error = "Konnte den Upload nicht entfernen oder Eintrag existiert nicht.";
+    }
+}
+
 // Mitarbeiterliste laden, damit der Bürger aus einer Select-Liste wählen kann.
-// Hier filtern wir z. B. nach role = 'employee' OR 'admin', wenn du Admin miteinbeziehen willst.
 $stmt = $pdo->prepare("
     SELECT id, username, first_name, last_name
     FROM users
@@ -78,6 +89,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 }
+
+// Alle Uploads des aktuellen Bürgers laden
+$stmt = $pdo->prepare("SELECT * FROM uploads WHERE citizen_id = :citizen_id ORDER BY upload_date DESC");
+$stmt->execute([':citizen_id' => $citizen['id']]);
+$uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -119,6 +135,40 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <button type="submit" class="btn">Hochladen</button>
     </form>
+
+    <!-- Tabelle mit allen vorhandenen Uploads des Bürgers -->
+    <?php if (count($uploads) > 0): ?>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Dateiname</th>
+                <th>Hochgeladen am</th>
+                <th>Zugewiesen an</th>
+                <th>Aktionen</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php foreach ($uploads as $upload): ?>
+                <tr>
+                    <td><?php echo $upload['id']; ?></td>
+                    <td><?php echo htmlspecialchars($upload['file_name']); ?></td>
+                    <td><?php echo htmlspecialchars($upload['upload_date']); ?></td>
+                    <td><?php echo htmlspecialchars($upload['target_employee']); ?></td>
+                    <td>
+                        <a class="delete-link"
+                           href="../dashboard.php?page=upload&amp;delete_id=<?php echo $upload['id']; ?>"
+                           onclick="return confirm('Diesen Upload wirklich löschen?');">
+                            Löschen
+                        </a>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+            </tbody>
+        </table>
+    <?php else: ?>
+        <p>Keine Uploads vorhanden.</p>
+    <?php endif; ?>
 </div>
 </body>
 </html>
