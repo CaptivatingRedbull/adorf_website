@@ -84,7 +84,7 @@ header {
   text-align: center;
 }
 
-#hero .container h1 {
+#hero .container{
   background-color: #ffcc00;
 }
 
