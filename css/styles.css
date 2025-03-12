@@ -473,3 +473,6 @@ footer {
 /* Artikel-Unterseite */
 /* =============== */
 
+.article-image {
+  height: 10px;
+}

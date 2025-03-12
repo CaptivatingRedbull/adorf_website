@@ -41,7 +41,7 @@
 
         <p>Die Stadt Adorf weist darauf hin, dass Halter stets ein wachsames Auge auf das Verhalten ihrer Tiere haben sollten. Weitere Informationen zur Hundehaltung gibt es im Bereich <a href="index.html#services">Bürgerdienste</a>.</p>
 
-        <a href="index.html#news" class="btn">Zurück zu den Nachrichten</a>
+        <a href="index.php#news" class="btn">Zurück zu den Nachrichten</a>
     </article>
 </main>
 <footer>
