@@ -75,7 +75,7 @@ $downloads = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!-- Optional: Footer -->
 <footer>
     <div class="container">
-        <p>&copy; 2025 Stadt Adorf. Alle Rechte vorbehalten. | <a href="impressum.html">Impressum</a></p>
+        <p>&copy; 2025 Stadt Adorf. Alle Rechte vorbehalten. | <a href="impressum.php">Impressum</a></p>
     </div>
 </footer>
 </body>
