@@ -25,7 +25,7 @@
 </header>
 <article class="news-article">
   <h2>Bert Meier von eigenem Hund gebissen</h2>
-  <img src="images/hund.jpg" alt="Hund Bello" class="article-image">
+  <img src="images/hund.jpg" alt="Hund Bello" class="article-image-small">
   <p>
     Gestern ereignete sich ein kurioser Vorfall in der Nachbarschaft: Bert Meier wurde von seinem eigenen Hund Bello gebissen. 
     Der Vorfall ereignete sich am frühen Abend. Augenzeugen berichten, dass der Hund aus bislang ungeklärten Gründen plötzlich aggressiv wurde.

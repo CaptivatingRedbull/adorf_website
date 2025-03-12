@@ -473,7 +473,7 @@ footer {
 /* Artikel-Unterseite */
 /* =============== */
 
-.news-article.with-image {
+.news-article {
   display: flex;
   gap: 1.5rem;
   align-items: flex-start;
