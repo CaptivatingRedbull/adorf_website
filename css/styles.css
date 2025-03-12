@@ -518,3 +518,70 @@ footer {
   margin-top: 30px;
   display: inline-block;
 }
+/* =============== */
+/* Artikel-Unterseite */
+/* =============== */
+
+.article-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.full-article h1 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.article-meta {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.full-article p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.full-article blockquote {
+  font-style: italic;
+  margin: 30px 0;
+  padding: 15px 20px;
+  background: #f0f0f0;
+  border-left: 5px solid #003366;
+  color: #333;
+}
+
+.full-article a {
+  color: #003366;
+  text-decoration: underline;
+}
+
+.full-article a.btn {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.full-article a.btn:hover {
+  background-color: #0055aa;
+}

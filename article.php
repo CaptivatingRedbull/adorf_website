@@ -24,28 +24,24 @@
     </div>
 </header>
 
-<main class="article-container">
-    <article class="article">
+<class="article-container">
+    <article class="full-article">
         <h1>Bert Meier von seinem Hund Bello gebissen</h1>
-        <p class="artikel-meta">Veröffentlicht am 11. März 2025 von <strong>Redaktion Adorf</strong></p>
+        <p class="article-meta">Veröffentlicht am 12. März 2025 von <strong>Redaktion Adorf</strong></p>
 
-        <img src="images/hund.jpg" alt="Hund Bello" class="artikel-bild" heigth=10%>
+        <img src="images/hund.jpg" alt="Hund Bello" class="article-image">
 
-        <div class="artikel-inhalt">
-            <p>Bert Meier, ein langjähriger Bürger der Stadt Adorf, wurde gestern Nachmittag von seinem eigenen Hund Bello gebissen. Der Vorfall ereignete sich im heimischen Garten, als Bello aus bisher ungeklärten Gründen aggressiv reagierte.</p>
+        <p>Gestern Nachmittag kam es zu einem Vorfall in der Musterstraße, bei dem <strong>Bert Meier</strong> von seinem eigenen Hund <em>Bello</em> gebissen wurde. Der 53-Jährige wurde umgehend ins Krankenhaus eingeliefert.</p>
 
-            <p>Herr Meier wurde umgehend medizinisch versorgt und befindet sich mittlerweile wieder auf dem Weg der Besserung. Die Tierärztliche Untersuchung von Bello ergab keine Hinweise auf Krankheit oder Tollwut.</p>
+        <p>Der Vorfall ereignete sich gegen 14:30 Uhr. Nachbarn berichten, dass Bello plötzlich aggressiv wurde. Laut Aussagen des Tierarztes könnte ein medizinisches Problem Grund für das Verhalten des Tieres gewesen sein.</p>
 
-            <p>Die Stadtverwaltung bittet Bürgerinnen und Bürger, in ähnlichen Fällen umgehend den Notruf zu wählen und Tiere nicht eigenmächtig zu beruhigen.</p>
+        <p>Die Verletzungen von Herrn Meier sind glücklicherweise nicht lebensbedrohlich. Er konnte das Krankenhaus noch am selben Abend wieder verlassen. Der Hund wird derzeit von Fachleuten untersucht.</p>
 
-            <blockquote>
-                "Es war ein Schock, aber ich bin froh, dass alles glimpflich ausgegangen ist." – Bert Meier
-            </blockquote>
+        <blockquote>„Ich liebe Bello – aber ich muss verstehen, was ihn so erschreckt hat“, sagte Bert Meier nach dem Vorfall.</blockquote>
 
-            <p>Weitere Informationen zur sicheren Hundehaltung finden Sie auf unserer Website unter <a href="#">Bürgerdienste > Haustiere</a>.</p>
-        </div>
+        <p>Die Stadt Adorf weist darauf hin, dass Halter stets ein wachsames Auge auf das Verhalten ihrer Tiere haben sollten. Weitere Informationen zur Hundehaltung gibt es im Bereich <a href="index.html#services">Bürgerdienste</a>.</p>
 
-        <a href="index.html#news" class="btn">Zurück zu den News</a>
+        <a href="index.html#news" class="btn">Zurück zu den Nachrichten</a>
     </article>
 </main>
 
