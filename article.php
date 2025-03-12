@@ -23,7 +23,7 @@
         </nav>
     </div>
 </header>
-<article class="news-article">
+<!-- <article class="news-article">
   <h2>Bert Meier von eigenem Hund gebissen</h2>
   <img src="images/hund.jpg" alt="Hund Bello" class="article-image-small">
   <p>
@@ -38,6 +38,26 @@
     Der Vorfall wirft Fragen zum Verhalten von Haustieren in Stresssituationen auf. Tierärzte empfehlen eine genaue Beobachtung von Verhaltensänderungen 
     bei Haustieren, um ähnliche Vorfälle zu vermeiden.
   </p>
+</article> -->
+<article class="news-article-layout">
+  <div class="article-header">
+    <h2>Bert Meier von eigenem Hund gebissen</h2>
+    <img src="images/hund.jpg" alt="Hund Bello" class="article-image-small">
+  </div>
+  <div class="article-body">
+    <p>
+      Gestern ereignete sich ein kurioser Vorfall in der Nachbarschaft: Bert Meier wurde von seinem eigenen Hund Bello gebissen. 
+      Der Vorfall ereignete sich am frühen Abend. Augenzeugen berichten, dass der Hund aus bislang ungeklärten Gründen plötzlich aggressiv wurde.
+    </p>
+    <p>
+      Meier wurde umgehend ins Krankenhaus gebracht und dort medizinisch versorgt. Glücklicherweise sind die Verletzungen nicht schwerwiegend. 
+      Laut Ärzten handelt es sich hauptsächlich um oberflächliche Bisswunden.
+    </p>
+    <p>
+      Der Vorfall wirft Fragen zum Verhalten von Haustieren in Stresssituationen auf. Tierärzte empfehlen eine genaue Beobachtung von Verhaltensänderungen 
+      bei Haustieren, um ähnliche Vorfälle zu vermeiden.
+    </p>
+  </div>
 </article>
 <footer>
     <div class="container">
