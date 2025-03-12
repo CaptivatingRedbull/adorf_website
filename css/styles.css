@@ -95,13 +95,13 @@ header {
   font-weight: bold;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
   border-radius: 12px;
-  background-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
   margin-left:30%;
   margin-right:30%;
 }
 
 .background-image {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
