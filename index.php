@@ -27,17 +27,13 @@
 
 <!-- Hero-Bereich -->
 <section id="hero">
-    <!-- <div class="container">
+    <div class="image-behind-text">
+        <img src="images/logo.jpg" alt="Hintergrund" class="background-image">
         <h1>Willkommen bei der kreisfreien Stadt Adorf!</h1>
-        <p>Ihr zuverlässiger Partner in allen Verwaltungsangelegenheiten.</p>
+        p>Ihr zuverlässiger Partner in allen Verwaltungsangelegenheiten.</p>
         <a href="#services" class="btn">Mehr erfahren</a>
         <a href="login.php" class="btn">Login</a>
-    </div> -->
-    <div class="image-behind-text">
-  <img src="images/logo.jpg" alt="Hintergrund" class="background-image">
-  <h2>Willkommen in Adorf</h2>
-  <p>Die digitale Stadt erleben</p>
-</div>
+    </div>
 </section>
 
 <!-- Leistungs-Bereich -->
