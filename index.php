@@ -27,12 +27,16 @@
 
 <!-- Hero-Bereich -->
 <section id="hero">
-    <div class="container">
+    <!-- <div class="container">
         <h1>Willkommen bei der kreisfreien Stadt Adorf!</h1>
         <p>Ihr zuverlässiger Partner in allen Verwaltungsangelegenheiten.</p>
         <a href="#services" class="btn">Mehr erfahren</a>
         <a href="login.php" class="btn">Login</a>
-    </div>
+    </div> -->
+    <div class="text-overlay">
+  <h2>Willkommen in Adorf</h2>
+  <p>Schön, dass Sie da sind!</p>
+</div>
 </section>
 
 <!-- Leistungs-Bereich -->

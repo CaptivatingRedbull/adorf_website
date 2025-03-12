@@ -88,6 +88,17 @@ header {
   background-color: #ffcc00;
 }
 
+.text-overlay {
+  background-image: url('images/logo.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+  border-radius: 12px;
+  position: relative;
+}
+
 /* =============== */
 /* 4) Sektionen auf der öffentlichen Seite */
 /* =============== */
