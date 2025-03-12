@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p class="error"><?php echo $error; ?></p>
     <?php endif; ?>
 
-    <form action="../dashboard.php?page=admin_reset_password" method="post">
+    <form action="../dashboard.php?page=reset_password" method="post">
         <label for="search_term">
             Benutzername oder E-Mail des Nutzers:
         </label>
