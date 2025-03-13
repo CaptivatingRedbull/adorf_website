@@ -98,6 +98,7 @@ header {
   background-color: rgba(0, 0, 0, 0.75);
   margin-left:30%;
   margin-right:30%;
+  background-image: "images/logo.jpg";
 }
 
 .background-image {
@@ -123,7 +124,7 @@ header {
 /* =============== */
 
 section {
-
+  padding: 60px 0;
 }
 
 h2 {
