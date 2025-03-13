@@ -20,10 +20,17 @@ body {
 /* =============== */
 
 /* Allgemeiner Header – dunkler Hintergrund, weißer Text */
-header {
+/*header {
   background-color: #003366;
   color: #fff;
   padding: 10px 0;
+}*/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* damit er über allem liegt */
+  background-color: white; /* oder deine Header-Farbe */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* optional: dezenter Schatten */
 }
 
 /* Container im Header: Logo links, Navigation rechts */
