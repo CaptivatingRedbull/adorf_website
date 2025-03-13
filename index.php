@@ -26,6 +26,7 @@
 </header>
 
 <!-- Hero-Bereich -->
+<img src="images/hero.jpg" alt="Hintergrund">
 <section id="hero">
 <img src="images/hero.jpg" alt="Hintergrund" class="background-image">
     <div class="image-behind-text">
