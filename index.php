@@ -33,9 +33,9 @@
         <a href="#services" class="btn">Mehr erfahren</a>
         <a href="login.php" class="btn">Login</a>
     </div>
-    <div class="hero-wave">
-    <svg viewBox="0 0 1440 100">
-      <path fill="#fff" d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z"></path>
+    <div class="wave-divider">
+    <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+      <path d="M0,0 C480,100 960,0 1440,100 L1440,150 L0,150 Z" fill="#ffffff"></path>
     </svg>
   </div>
 </section>
