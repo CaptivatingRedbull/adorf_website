@@ -162,7 +162,12 @@ h2 {
 }
 
 #services {
-  background: linear-gradient(to top, rgba(141, 134, 134, 0.1), #fff 100%)
+  /*background: linear-gradient(to top, rgba(141, 134, 134, 0.1), #fff 100%)*/
+  background: linear-gradient(to bottom, 
+  #ffffff,               /* Weiß */
+  #808080,               /* Grau */
+  rgba(94, 88, 88, 0.1)  /* Deine Farbe mit Transparenz */
+);
 }
 
 #services .container {
