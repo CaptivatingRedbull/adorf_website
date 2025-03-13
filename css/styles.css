@@ -161,7 +161,7 @@ h2 {
 }
 
 #services {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), #fff 100%)
+  background: linear-gradient(to top, rgba(129, 120, 120, 0.1), #fff 100%)
 }
 
 #services .container {
@@ -176,9 +176,6 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-}
-#contact {
-  background-color:rgba(0, 0, 0, 0.3);
 }
 
 #contact .container {
