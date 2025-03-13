@@ -140,7 +140,7 @@ h2 {
   padding: 20px;
 }
 #news {
-  background-color:rgba(0, 0, 0, 0.05);
+  background-color:rgba(90, 81, 81, 0.1);
 }
 #news .container {
   display: flex;
