@@ -88,6 +88,30 @@
     </p>
   </div>
 </article>
+<article class="news-article-layout">
+  <div class="article-header">
+    <h2>Bürgerdienste in Adorf: Anmelden, Ummelden, Ausweisen und mehr</h2>
+    <img src="images/buergerdienste.jpg" alt="Bürgerdienste in Adorf" class="article-image-small">
+  </div>
+  <div class="article-body">
+    <p>
+      Die Bürgerdienste der Stadt Adorf bieten eine Vielzahl von Verwaltungsdienstleistungen für die Bürger an. Diese Dienstleistungen umfassen unter anderem die Anmeldung, Ummeldung und Abmeldung von Wohnsitzen sowie die Ausstellung von Ausweisen und Reisepässen.
+    </p>
+    <p>
+      Jeder, der nach Adorf zieht oder innerhalb der Stadt umzieht, muss sich bei den Bürgerdiensten anmelden oder ummelden. Die Anmeldung muss innerhalb von zwei Wochen nach dem Einzug erfolgen, während die Ummeldung bei einem Umzug innerhalb der Stadt erforderlich ist. Ebenso ist eine Abmeldung notwendig, wenn man die Stadt verlässt.
+    </p>
+    <p>
+      Auch die Beantragung von Personalausweisen und Reisepässen gehört zu den häufigsten Anliegen der Bürger. Hierbei kann man direkt im Bürgerbüro einen Antrag stellen und sogar einen Termin vereinbaren, um Wartezeiten zu minimieren.
+    </p>
+    <p>
+      Weitere Dienstleistungen umfassen die Ausstellung von Meldebescheinigungen, die Beantragung von Führungszeugnissen und die Verwaltung von Führerscheinen. Die Stadt arbeitet kontinuierlich daran, diese Dienste zu digitalisieren, um den Bürgern eine einfache und schnelle Abwicklung ihrer Anliegen zu ermöglichen.
+    </p>
+    <p>
+      Um eine möglichst schnelle Bearbeitung zu gewährleisten, empfiehlt es sich, die relevanten Formulare im Voraus auszufüllen und einen Termin zu buchen. Die Bürgerdienste stellen zudem viele Informationen und Formulare online zur Verfügung.
+    </p>
+  </div>
+</article>
+
 <footer>
     <div class="container">
         <p>&copy; 2025 Stadt Adorf. Alle Rechte vorbehalten. | <a href="impressum.php">Impressum</a></p>
