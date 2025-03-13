@@ -40,22 +40,20 @@
 <section id="services">
     <h2>Unsere Leistungen</h2>
     <div class="container">
-        <div class="cards">
-            <div class="card">
-                <h3>Bürgerdienste</h3>
-                <p>Informationen zu An- und Ummeldungen, Ausweisen und mehr.</p>
-                <a href="#">Mehr erfahren</a>
-            </div>
-            <div class="card">
-                <h3>Wirtschaftsförderung</h3>
-                <p>Beratung und Unterstützung für Unternehmen in Adorf.</p>
-                <a href="#">Mehr erfahren</a>
-            </div>
-            <div class="card">
-                <h3>Bau und Umwelt</h3>
-                <p>Übersicht zu Planungs- und Genehmigungsverfahren.</p>
-                <a href="#">Mehr erfahren</a>
-            </div>
+    <div class="cards">
+  <a href="#" class="card">
+    <h3>Bürgerdienste</h3>
+    <p>Informationen zu An- und Ummeldungen, Ausweisen und mehr.</p>
+  </a>
+  <a href="#" class="card">
+    <h3>Wirtschaftsförderung</h3>
+    <p>Beratung und Unterstützung für Unternehmen in Adorf.</p>
+  </a>
+  <a href="#" class="card">
+    <h3>Bau und Umwelt</h3>
+    <p>Übersicht zu Planungs- und Genehmigungsverfahren.</p>
+  </a>
+</div>
         </div>
     </div>
 </section>
