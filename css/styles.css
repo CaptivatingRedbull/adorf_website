@@ -179,7 +179,7 @@ h2 {
   justify-content: center;
 }
 
-.card {
+/*.card {
   background: #f4f4f4;
   padding: 20px;
   flex: 1;
@@ -187,7 +187,26 @@ h2 {
   max-width: 350px;
   border-radius: 5px;
   text-align: center;
+}*/
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* leichter Schatten */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
+
+.card:hover {
+  transform: scale(1.05); /* leicht vergrößern */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* intensiverer Schatten */
+  background-color: #fffbe6; /* leichter Glow-Effekt */
+}
+
 
 .card a {
   display: inline-block;
