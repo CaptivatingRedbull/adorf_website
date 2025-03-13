@@ -206,7 +206,7 @@ h2 {
 .card a {
   display: inline-block;
   margin-top: 15px;
-  text-decoration: none;
+  text-decoration: underline;
   color: #003366;
 }
 
