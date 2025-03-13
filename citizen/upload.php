@@ -91,7 +91,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 // Alle Uploads des aktuellen Bürgers laden
-$stmt = $pdo->prepare("SELECT * FROM uploads WHERE citizen_id = :citizen_id ORDER BY upload_date DESC");
+$stmt = $pdo->prepare("
+    SELECT u.*, us.username AS employee_username
+    FROM uploads u
+    JOIN users us ON u.target_employee = us.id
+    WHERE u.citizen_id = :citizen_id
+    ORDER BY u.upload_date DESC
+");
 $stmt->execute([':citizen_id' => $citizen['id']]);
 $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
@@ -154,7 +160,7 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <td><?php echo $upload['id']; ?></td>
                     <td><?php echo htmlspecialchars($upload['file_name']); ?></td>
                     <td><?php echo htmlspecialchars($upload['upload_date']); ?></td>
-                    <td><?php echo htmlspecialchars($upload['target_employee']); ?></td>
+                    <td><?php echo htmlspecialchars($upload['employee_username']); ?></td>
                     <td>
                         <a class="delete-link"
                            href="../dashboard.php?page=upload&amp;delete_id=<?php echo $upload['id']; ?>"
