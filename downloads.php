@@ -34,7 +34,11 @@ $downloads = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <img src="images/logo.jpg" alt="Landratsamt Ansbach Logo" class="logo">
         <nav>
             <ul>
-                <li><a href="index.php">Startseite</a></li>
+            <li><a href="index.php">Startseite</a></li>
+                <li><a href="services.php">Leistungen</a></li>
+                <li><a href="article.php">Aktuelles</a></li>
+                <li><a href="index.php#contact">Kontakt</a></li>
+                <li><a href="downloads.php">Öffentliche Downloads</a></li>
                 <li><a href="login.php">Login</a></li>
             </ul>
         </nav>
