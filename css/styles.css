@@ -125,6 +125,10 @@ section {
   padding: 60px 0;
 }
 
+section #hero {
+  padding: 0px;
+}
+
 h2 {
   text-align: center;
   padding: 20px;
