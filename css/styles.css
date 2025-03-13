@@ -101,8 +101,7 @@ header {
 }
 
 .background-image {
-  position: absolute;
-  top: 70px;
+  position: relative;
   left: 0;
   width: 100%;
   height: 50%;
