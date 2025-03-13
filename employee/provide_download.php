@@ -1,5 +1,4 @@
 <?php
-
 // Datenbankverbindungsdaten
 $dsn    = "mysql:host=localhost;dbname=adorf_website;charset=utf8";
 $dbUser = "praxisblockDB";
@@ -71,10 +70,6 @@ if (isset($_POST['action']) && $_POST['action'] === 'upload_new') {
         } else {
             // Datei speichern
             $uploadDir = __DIR__ . '/../files/downloads/';
-            // Passe diesen Pfad ggf. an!
-            // Wenn dein 'dashboard.php' im Hauptverzeichnis liegt und 'employee' ein Unterordner ist,
-            // dann ../files/downloads/ => /var/www/html/files/downloads/
-
             if (!is_dir($uploadDir)) {
                 mkdir($uploadDir, 0755, true);
             }
@@ -102,6 +97,22 @@ if (isset($_POST['action']) && $_POST['action'] === 'upload_new') {
     }
 }
 
+// Prüfen, ob ein Download gelöscht werden soll
+if (isset($_GET['delete_id'])) {
+    $deleteId = (int)$_GET['delete_id'];
+    // Löschvorgang nur bei Einträgen, die dem aktuellen Mitarbeiter/Admin zugewiesen wurden
+    $stmt = $pdo->prepare("DELETE FROM downloads WHERE id = :id AND uploaded_by = :uploaded_by AND is_standard = 0");
+    if ($stmt->execute([':id' => $deleteId, ':uploaded_by' => $staff['id']])) {
+        if ($stmt->rowCount() > 0) {
+            $messageUpload = "Download (ID: $deleteId) wurde erfolgreich gelöscht.";
+        } else {
+            $errorUpload = "Konnte den Download nicht löschen oder Eintrag existiert nicht.";
+        }
+    } else {
+        $errorUpload = "Fehler beim Löschen des Downloads.";
+    }
+}
+
 // Standarddownloads laden
 $stmt = $pdo->query("SELECT id, file_name FROM downloads WHERE is_standard = 1 ORDER BY file_name");
 $standardDownloads = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -109,6 +120,17 @@ $standardDownloads = $stmt->fetchAll(PDO::FETCH_ASSOC);
 // Alle Bürger laden (Rolle 'citizen')
 $stmt = $pdo->query("SELECT id, username, first_name, last_name FROM users WHERE role = 'citizen' ORDER BY username");
 $citizens = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+// Alle Downloads laden, die der aktuelle Mitarbeiter/Admin zugewiesen hat
+$stmt = $pdo->prepare("
+    SELECT d.id, d.file_name, d.upload_date, u.username AS citizen_username
+    FROM downloads d
+    JOIN users u ON d.assigned_to = u.id
+    WHERE d.uploaded_by = :uploaded_by AND d.is_standard = 0
+    ORDER BY d.upload_date DESC
+");
+$stmt->execute([':uploaded_by' => $staff['id']]);
+$assignedDownloads = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -153,6 +175,43 @@ $citizens = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         <button type="submit">Hochladen &amp; zuweisen</button>
     </form>
+</div>
+
+<!-- Tabelle mit zugewiesenen Downloads -->
+<div class="form-container">
+    <h2>Zugewiesene Downloads</h2>
+    <?php if (count($assignedDownloads) > 0): ?>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Dateiname</th>
+                    <th>Zugewiesen an</th>
+                    <th>Hochgeladen am</th>
+                    <th>Aktionen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($assignedDownloads as $download): ?>
+                    <tr>
+                        <td><?php echo $download['id']; ?></td>
+                        <td><?php echo htmlspecialchars($download['file_name']); ?></td>
+                        <td><?php echo htmlspecialchars($download['citizen_username']); ?></td>
+                        <td><?php echo htmlspecialchars($download['upload_date']); ?></td>
+                        <td>
+                            <a class="delete-link"
+                               href="../dashboard.php?page=provide_download&amp;delete_id=<?php echo $download['id']; ?>"
+                               onclick="return confirm('Diesen Download wirklich löschen?');">
+                                Löschen
+                            </a>
+                        </td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    <?php else: ?>
+        <p>Keine zugewiesenen Downloads vorhanden.</p>
+    <?php endif; ?>
 </div>
 
 </body>
