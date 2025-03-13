@@ -148,7 +148,7 @@ h2 {
   text-align: center;
 }
 #news {
-  background: linear-gradient(to top, rgba(94, 88, 88, 0.1), #fff 100%)
+  background: linear-gradient(to bottom, rgba(94, 88, 88, 0.1), #fff 100%)
 }
 
 .news-content {
