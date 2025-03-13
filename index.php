@@ -15,7 +15,7 @@
         <nav>
             <ul>
                 <li><a href="#hero">Startseite</a></li>
-                <li><a href="#services">Leistungen</a></li>
+                <li><a href="services.php">Leistungen</a></li>
                 <li><a href="article.php">Aktuelles</a></li>
                 <li><a href="#contact">Kontakt</a></li>
                 <li><a href="downloads.php">Öffentliche Downloads</a></li>
@@ -43,17 +43,17 @@
             <div class="card">
                 <h3>Bürgerdienste</h3>
                 <p>Informationen zu An- und Ummeldungen, Ausweisen und mehr.</p>
-                <a href="#">Mehr erfahren</a>
+                <a href="services.php">Mehr erfahren</a>
             </div>
             <div class="card">
                 <h3>Wirtschaftsförderung</h3>
                 <p>Beratung und Unterstützung für Unternehmen in Adorf.</p>
-                <a href="#">Mehr erfahren</a>
+                <a href="services.php">Mehr erfahren</a>
             </div>
             <div class="card">
                 <h3>Bau und Umwelt</h3>
                 <p>Übersicht zu Planungs- und Genehmigungsverfahren.</p>
-                <a href="#">Mehr erfahren</a>
+                <a href="services.php">Mehr erfahren</a>
             </div>
         </div>
     </div>
