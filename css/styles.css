@@ -98,7 +98,6 @@ header {
   background-color: rgba(0, 0, 0, 0.75);
   margin-left:30%;
   margin-right:30%;
-  background-image: "images/logo.jpg";
 }
 
 .background-image {
@@ -106,7 +105,7 @@ header {
   top: 70px;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 420px;
   object-fit: cover;
   opacity: 0.5; /* Transparenz anpassen */
   z-index: 0;
