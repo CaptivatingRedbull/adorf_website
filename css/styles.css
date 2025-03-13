@@ -24,6 +24,7 @@ header {
   background-color: #003366;
   color: #fff;
   padding: 10px 0;
+  position: sticky;
 }
 
 /* Container im Header: Logo links, Navigation rechts */
