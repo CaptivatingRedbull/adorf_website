@@ -123,6 +123,17 @@ header {
   z-index: 1;
 }
 
+#hero {
+  background-image: url('../images/hero.jpg'); /* Pfad zum Bild */
+  background-size: cover;                     /* Bild füllt Fläche */
+  background-position: center;                /* zentriert das Bild */
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
+
 
 /* =============== */
 /* 4) Sektionen auf der öffentlichen Seite */
