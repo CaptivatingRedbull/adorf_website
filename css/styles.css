@@ -198,6 +198,10 @@ h2 {
   background-color: #fffbe6; /* leichter Glow-Effekt */
 }
 
+.card:hover a {
+  color: #0055aa;
+  font-weight: bold;
+}
 
 .card a {
   display: inline-block;
