@@ -178,9 +178,7 @@ h2 {
   justify-content: center;
   gap: 20px;
 }
-#contact {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), #fff 100%)
-}
+
 
 #contact .container {
   display: flex;
@@ -574,4 +572,8 @@ footer {
 .article-body p {
   margin-bottom: 1rem;
   line-height: 1.6;
+}
+
+#contact {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), #fff 100%)
 }
