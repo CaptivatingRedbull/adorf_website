@@ -111,6 +111,55 @@
     </p>
   </div>
 </article>
+<article class="news-article-layout">
+  <div class="article-header">
+    <h2>Wirtschaftsförderung in Adorf: Beratung und Unterstützung für Unternehmen</h2>
+    <img src="images/wirtschaftsfoerderung.jpg" alt="Wirtschaftsförderung in Adorf" class="article-image-small">
+  </div>
+  <div class="article-body">
+    <p>
+      Die Wirtschaftsförderung der Stadt Adorf bietet Unternehmen eine umfassende Beratung und Unterstützung, um die Wirtschaftskraft der Region zu stärken und zu fördern. Das Ziel ist es, Unternehmen beim Wachstum zu unterstützen und gleichzeitig ein attraktives Umfeld für Neuansiedlungen zu schaffen.
+    </p>
+    <p>
+      Unternehmer und Existenzgründer in Adorf erhalten Unterstützung bei der Wahl des richtigen Standorts, der Beantragung von Fördermitteln und der Vernetzung mit anderen regionalen und überregionalen Wirtschaftsakteuren. Darüber hinaus gibt es zahlreiche Informationsangebote, die über aktuelle wirtschaftliche Entwicklungen und Innovationsmöglichkeiten informieren.
+    </p>
+    <p>
+      Für junge Unternehmen oder Start-ups bietet die Wirtschaftsförderung in Adorf zudem spezielle Programme zur Unterstützung bei der Unternehmensgründung. Dazu gehören Beratungen zu Finanzierungsmöglichkeiten, Unterstützung bei der Erstellung von Businessplänen und die Vermittlung von Kontakten zu potenziellen Partnern und Investoren.
+    </p>
+    <p>
+      Ein weiterer wichtiger Bestandteil der Wirtschaftsförderung ist die Förderung von Innovationen. Unternehmen, die innovative Projekte in Adorf umsetzen möchten, können auf verschiedene Förderprogramme zugreifen, die durch die Stadt oder Partnerorganisationen bereitgestellt werden.
+    </p>
+    <p>
+      Die Wirtschaftsförderung sorgt zudem für eine gute Zusammenarbeit zwischen der Stadtverwaltung und den Unternehmen, um bürokratische Hürden zu überwinden und schnelle Lösungen für Probleme zu finden. So trägt Adorf aktiv zur Schaffung neuer Arbeitsplätze und zur Sicherung der regionalen Wettbewerbsfähigkeit bei.
+    </p>
+  </div>
+</article>
+<article class="news-article-layout">
+  <div class="article-header">
+    <h2>Bau und Umwelt in Adorf: Übersicht zu Planungs- und Genehmigungsverfahren</h2>
+    <img src="images/bau_umwelt.jpg" alt="Bau und Umwelt in Adorf" class="article-image-small">
+  </div>
+  <div class="article-body">
+    <p>
+      In der Stadt Adorf ist der Bereich Bau und Umwelt von großer Bedeutung, da er maßgeblich die nachhaltige Entwicklung der Stadt und die Umsetzung von Bauvorhaben steuert. Bürger, Unternehmen und Investoren erhalten hier die notwendige Unterstützung, um ihre Bauprojekte im Einklang mit den umweltrechtlichen Bestimmungen und den städtischen Vorgaben durchzuführen.
+    </p>
+    <p>
+      Die Planungs- und Genehmigungsverfahren in Adorf sind klar strukturiert, um sowohl den reibungslosen Ablauf der Bauvorhaben als auch den Schutz der Umwelt zu gewährleisten. Bauherren müssen eine Vielzahl von Aspekten berücksichtigen, darunter die Einhaltung von Bauvorschriften, Umweltauflagen und den jeweiligen städtischen Bebauungsplänen.
+    </p>
+    <p>
+      Der erste Schritt in jedem Bauvorhaben ist die Prüfung des Bebauungsplans. In Adorf gibt es spezielle Gebietspläne, die festlegen, welche Art von Bauvorhaben in welchem Bereich der Stadt zulässig sind. Die Stadtverwaltung stellt detaillierte Informationen zu den Bebauungsplänen bereit und berät Bauherren, um sicherzustellen, dass ihre Projekte den rechtlichen Anforderungen entsprechen.
+    </p>
+    <p>
+      Ein weiterer wichtiger Bestandteil der Genehmigungsverfahren ist die Umweltverträglichkeitsprüfung. Für viele Bauvorhaben müssen die Auswirkungen auf die Umwelt, insbesondere auf Luftqualität, Wasserhaushalt und Flora und Fauna, geprüft werden. Die Stadt Adorf stellt sicher, dass alle umweltschutzrechtlichen Vorgaben eingehalten werden, um eine nachhaltige und ressourcenschonende Entwicklung zu fördern.
+    </p>
+    <p>
+      Sobald alle erforderlichen Unterlagen eingereicht und die Prüfungen abgeschlossen sind, erteilt die Stadtverwaltung die Baugenehmigung. Bei komplexeren Projekten oder wenn öffentliche Interessen betroffen sind, kann die Stadt auch zusätzliche Maßnahmen wie öffentliche Anhörungen oder Bürgerbeteiligungsverfahren durchführen.
+    </p>
+    <p>
+      Die Stadt Adorf bietet eine umfassende Beratung für Bauherren an, um den Prozess zu erleichtern und alle rechtlichen Hürden zu überwinden. Dazu gehört auch die Unterstützung bei der Erstellung von Bauanträgen, der Einhaltung von Umweltauflagen und der Kommunikation mit den zuständigen Behörden.
+    </p>
+  </div>
+</article>
 
 <footer>
     <div class="container">
