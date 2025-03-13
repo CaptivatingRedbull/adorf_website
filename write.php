@@ -32,45 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neuen Artikel erstellen</title>
-    <style>
-        /* Stil für das Formular und die Anzeige */
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        form {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        label {
-            display: block;
-            margin-bottom: 8px;
-        }
-        input[type="text"], input[type="file"], textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-        }
-        textarea {
-            height: 150px;
-        }
-        .news-article-layout {
-            border: 1px solid #ddd;
-            padding: 20px;
-            margin-top: 30px;
-        }
-        .article-header img {
-            width: 100%;
-            max-width: 400px;
-        }
-        .article-body p {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <h1>Neuen Artikel erstellen</h1>
