@@ -25,7 +25,7 @@
 </header>
 
 <main class="leistungen-layout">
-    <h1>Unsere Leistungen</h1>
+    <h1 style="text-align: center; >Unsere Leistungen</h1>
 
     <!-- Bürgerdienste -->
     <section class="leistung">
