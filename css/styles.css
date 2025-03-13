@@ -65,6 +65,7 @@ header {
 
 #hero {
   text-align: center;
+  padding: 100px 0;
 }
 
 #hero .btn {
@@ -89,7 +90,6 @@ header {
 
 .image-behind-text {
   position: relative;
-  padding: 2rem;
   color: whitesmoke;
   font-weight: bold;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
